@@ -7,11 +7,12 @@
   align-items: center;
   justify-content: center;
 
-  background-image: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .result h1 {
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
   font-size: 24px;
 }
 
@@ -32,11 +33,14 @@ h1, h2, span, p {
 }
 
 .circle span {
-  font-size: 50px;
+  margin-top: 30px;
+  font-size: 70px;
   font-weight: 800;
+  line-height: 0.9;
 }
 
 .circle p {
+  line-height: 1;
   font-size: 14px;
 }
 
@@ -46,7 +50,7 @@ h1, h2, span, p {
 
   margin-top: 10px;
   margin-bottom: 10px;
-  margin: 10px 50px;
+  margin: 20px 50px;
 }
 
 .message-div h2 {
